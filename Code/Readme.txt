@@ -1,3 +1,7 @@
+Requirements:
+Python 3.6.4
+Packages: pandas (0.22.0); numpy (1.15.4); scipy (1.5.2).
+
 1. Usage:
 Usage: EGRNM.py [-h] -r <input_RNAseq> [-c <input_ChIP>] [-i <iteration_num>]
                                    -t <promoter_strengths> [-s <samplesize>] [-n <training_count>]
