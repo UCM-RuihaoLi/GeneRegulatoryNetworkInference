@@ -55,6 +55,7 @@ python EGRN_Multi_Genalg.py -r data/Alpha_Attractors_example.txt -n 250 -i 3 -t 
   0	0	0	0
   0	0	1	0
 
-6. Other parameters can be assigned by users. By default, the mRNA elongation rate is 4.8 nt./s, amino acid elongation rate is 8 aa./s, protein degradation rate is 0.00796/s. The samplesize (by default 100) determines the number of GRN instances involved in the evolutionary algorithm, and the training_count (by default 800) refers to how many times the evolutionary algorithm will iterate.
+6. Other parameters can be assigned by users. By default, the mRNA elongation rate is 4.8 nt./s, amino acid elongation rate is 8 aa./s, protein degradation rate is 0.00796/s. 
+The samplesize (by default 100) determines the number of GRN instances involved in the evolutionary algorithm, and the training_count (by default 800) refers to how many times the evolutionary algorithm will iterate.
 
 7. The inferred GRN will be stored in _Result.txt and _Result_f0.txt. The CheckPoint.txt stores the parameters for each individual GRN instance. The time spent and the decrease of attractor distance on each iteration will be stored in CheckLoopCounter.txt and ResultFlow.txt, respectively.
