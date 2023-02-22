@@ -1,0 +1,2 @@
+Gene1	Gene2	Gene3	Gene4	Gene5	Gene6	Gene7	Gene8
+669	606	579	642	603	720	633	612
