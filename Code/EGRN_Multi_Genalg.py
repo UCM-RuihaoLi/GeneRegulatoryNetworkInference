@@ -443,7 +443,7 @@ if __name__ == '__main__':
                             expanded_index_to_train[j][0])].append(Memo_mRNA)
                         CurrentDistance_2.append(5*TotalNumberOfGenes)
                     else:
-                        CurrentDistance_2.append(5*TotalNumberOfGenes)
+                        CurrentDistance_2.append(0)
 
             IDic = {}
             for j in range(0, len(expanded_index_to_train)):
